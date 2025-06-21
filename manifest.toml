@@ -76,8 +76,8 @@ ram.runtime = "500M"
     api.protected = true
 
     share.url = "/share"
-    api.allowed = "visitors"
-    api.show_tile = false
+    share.allowed = "visitors"
+    share.show_tile = false
 
     [resources.ports]
     main.default = 2283
